@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+   
+    background-image: url(https://wallpaperaccess.com/full/3447848.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    height: 80vh;
+}
+ .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.68;
+    di
+
+}
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    color: red;
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    width: 60px;
+}
+.inf{
+    height: calc(100%-62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+position: relative;
+gap: 15px;
+padding: 35px;
+
+}
+.inf> :first-child{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.inf> :nth-child(2){
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+.inf> :nth-child(3){
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+.sepration{
+    height: 3px;
+    background-color: gray;
+}
+.btn{
+    padding: 3px 5px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red-sm{
+    padding: 2px 5px;
+    background-color: red;
+    font-weight: bold;
+}
+.btn-red{
+    padding: 3px 4px;
+    font-weight: bold;
+    background-color: red;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 50px;
+    color: white;
+}
+.sysimg img{
+    max-width: 27vw;
+}
+.sysimg{
+    position: relative;
+}
+
+.first div> :first-child{
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.first div> :nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.first div> :nth-child(3){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.sepration{
+    height: 3px;
+    background-color: gray;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 50px;
+    color: white;
+}
+.sysimg img{
+    max-width: 27vw;
+}
+.sysimg{
+    position: relative;
+}
+
+.second div> :first-child{
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.second div> :nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.second div> :nth-child(3){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.sepration{
+    height: 3px;
+    background-color: gray;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 50px;
+    color: white;
+}
+.sysimg img{
+    max-width: 27vw;
+}
+.sysimg{
+    position: relative;
+}
+
+.third div> :first-child{
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.third div> :nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.third div> :nth-child(3){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.sepration{
+    height: 3px;
+    background-color: gray;
+}
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    margin: 50px;
+    color: white;
+}
+.sysimg img{
+    max-width: 27vw;
+}
+.sysimg{
+    position: relative;
+}
+
+.fourth div> :first-child{
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.fourth div> :nth-child(2){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.fourth div> :nth-child(3){
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+   flex-direction: column;
+}
+.sepration{
+    height: 3px;
+    background-color: gray;
+}
+.thats{
+    background: black;
+    color: white;
+/* padding: 70px; */
+}
+.thats h2{
+    text-align: center;
+    font-size: 48px;
+}
+    
+.dabba{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(169, 169, 169, 0.226);
+    padding: 20px;
+    font-size: 22px;
+    max-width: 54vw;
+    margin: 20px auto;
+   
+    cursor: pointer;
+   }
+   .dabba:hover{
+    background-color:rgb(99, 97, 97) ;
+   }
+   .sepration{
+    height: 3px;
+    background-color: gray;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 34px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.item a{
+    color: white;
+    font-size: 20px;
+}
